@@ -91,7 +91,7 @@ background-image: linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%
 }
 .linear_top {
     border-top: 3px solid; 
-    border-image: linear-gradient(45deg, hsl(37, 97%, 70%),hsl(329, 70%, 58%)) 1 0 0 0;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%)) 1 0 0 0;
     position: relative;
 }
 .youtube_top {
@@ -212,6 +212,10 @@ h2 {
 }
 .active section h2 {
     color: hsl(0, 0%, 100%);
+}
+.active.linear_top {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%)) 1 0 0 0;
 }
 @media screen and (max-width: 768px) {
     .container_main {
