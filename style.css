@@ -178,6 +178,9 @@ h2 {
 .red {
     color: hsl(356, 69%, 56%);
 }
+.attribution {
+    margin-top: 1rem;
+}
 .active.container_main {
     background-color: hsl(232, 19%, 15%);
 }
@@ -215,6 +218,12 @@ h2 {
 }
 .active .right_navigation {
     color: hsl(0, 0%, 100%);
+}
+.active .attribution {
+ color: hsl(0, 0%, 100%);
+}
+.active .attribution a {
+    color: hsl(228, 12%, 44%);
 }
 
 @media screen and (max-width: 768px) {
