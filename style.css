@@ -199,7 +199,7 @@ h2 {
     color: hsl(0, 0%, 100%);
 }
 .active .img {
-    color: hsl(0, 0%, 100%);
+    color: hsl(228, 12%, 44%);
 }
 .active .slider:before {
     background-color: hsl(228, 28%, 20%);
@@ -213,10 +213,10 @@ h2 {
 .active section h2 {
     color: hsl(0, 0%, 100%);
 }
-.active.linear_top {
-    border-top: 3px solid;
-    border-image: linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%)) 1 0 0 0;
+.active .right_navigation {
+    color: hsl(0, 0%, 100%);
 }
+
 @media screen and (max-width: 768px) {
     .container_main {
         height: 410vh;
